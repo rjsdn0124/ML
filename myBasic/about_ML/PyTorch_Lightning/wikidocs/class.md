@@ -16,3 +16,8 @@ class Calculator:
         self.result += num
         return self.result
 ```
+
+### super
+- 자식 클래스애서 부모 클래스의 내용을 사용하고 싶을 경우
+- super().__init__()으로 생성자에서 사용하여 매개변수로 부모 클래스의 변수에 저장. 앞 뒤 상관 x
+- self는 이 함수를 쓸 인스턴스 자신을 호출하는 단어.
