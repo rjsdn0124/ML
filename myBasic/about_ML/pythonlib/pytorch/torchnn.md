@@ -6,6 +6,9 @@
 ### nn.conv2d ????
 - convolution2d, (input 채널수, 출력되는 채널 수, ...)로 받는다.
 
+### nn.Sequential()
+- nn.Module 층을 차례로 쌓을 수 있또록 함. 여러 함수들을 연결해주는 역할. 이를 통해 인공 신경망을 구현할 수 있다.
+
 
 
 # torch
